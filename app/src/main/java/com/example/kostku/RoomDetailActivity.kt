@@ -29,8 +29,8 @@ import kotlin.random.Random
 class RoomDetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRoomDetailBinding
     private lateinit var userPreferencesManager: UserPreferencesManager
-    private val clientId = "SB-Mid-client-Kz7YBCRafj0Qab0U"
-    private val baseUrl = "https://midtrans-endpoint.vercel.app/"
+    private val clientId = "SB-Mid-client-oASRkqMkBfmKhd8Q"
+    private val baseUrl = "https://kostku-endpoint.vercel.app/"
     private val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {

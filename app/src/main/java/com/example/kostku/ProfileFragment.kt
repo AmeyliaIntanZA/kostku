@@ -32,7 +32,7 @@ class ProfileFragment : Fragment() {
     private lateinit var userPreferencesManager: UserPreferencesManager
     private val db = FirebaseFirestore.getInstance()
     private val client = OkHttpClient()
-    private val baseUrl = "https://midtrans-endpoint.vercel.app/"
+    private val baseUrl = "https://kostku-endpoint.vercel.app/"
 
     override fun onCreateView(
         inflater: LayoutInflater,

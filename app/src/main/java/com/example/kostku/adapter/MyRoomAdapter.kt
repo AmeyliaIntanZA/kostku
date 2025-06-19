@@ -47,7 +47,7 @@ class MyRoomAdapter(
             try {
                 // Initialize Midtrans SDK
                 SdkUIFlowBuilder.init()
-                    .setClientKey("SB-Mid-client-Kz7YBCRafj0Qab0U")
+                    .setClientKey("SB-Mid-client-oASRkqMkBfmKhd8Q")
                     .setContext(context)
                     .setTransactionFinishedCallback { result ->
                         // Log transaction result
@@ -66,7 +66,7 @@ class MyRoomAdapter(
                             }
                         }
                     }
-                    .setMerchantBaseUrl("https://midtrans-endpoint.vercel.app/")
+                    .setMerchantBaseUrl("https://kostku-endpoint.vercel.app/")
                     .enableLog(true)
                     .buildSDK()
 
